@@ -1,0 +1,32 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="164" Width="170" ResizeMode="NoResize" WindowStyle="None" Opacity="1" Background="#00000000" AllowsTransparency="True" Topmost="True" Icon="/right;component/Images/laptop.png" Left="5" Top="5" ShowInTaskbar="False">
+  
+    <Grid Background="#00000000" Height="131" Width="148" Name="sdf">
+        <Grid.Effect >
+            <DropShadowEffect Direction="0" ShadowDepth="0" Color="#FF007DE1" Opacity="3" RenderingBias="Quality" BlurRadius="9"></DropShadowEffect>
+        </Grid.Effect>
+            <Border CornerRadius="13" Background="#BD000000" Name="sds" BorderBrush="#D31980FA" Margin="12,20,22,12">
+            <Grid Height="Auto" Width="Auto">
+                <Label Content="U:" HorizontalAlignment="Left" Margin="6,0,0,50" Name="Label1" Foreground="White" FontSize="15" Width="102" Height="21" VerticalAlignment="Bottom" Padding="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Label Content="D:" FontSize="15" Foreground="White" HorizontalAlignment="Left" Margin="6,0,0,31" Name="Label2" Width="102" Height="20" VerticalAlignment="Bottom" Padding="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Border BorderBrush="Silver" BorderThickness="0" Height="69" HorizontalAlignment="Left" Margin="114,-1,0,0" Name="Border1" VerticalAlignment="Top" Width="170" CornerRadius="10">
+                    <Grid Height="Auto" Name="Grid1" Width="175" Background="White">
+                        <Image Height="39" HorizontalAlignment="Left" Margin="6,0,0,12" Name="Image1" Source="/right;component/Images/laptop.png" Stretch="Uniform" VerticalAlignment="Bottom" Width="34" />
+                        <Label Content="Name" FontSize="13" Foreground="Black" Height="25" HorizontalAlignment="Left" Margin="45,0,0,26" Name="name" Padding="0" VerticalAlignment="Bottom" Width="123" />
+                        <Label Content="Description" FontSize="11" Foreground="Black" Height="15" HorizontalAlignment="Left" Margin="45,0,0,17" Name="desc" Padding="0" VerticalAlignment="Bottom" Width="123" />
+                    </Grid>
+                </Border>
+                <Border BorderBrush="Silver" BorderThickness="1" Height="21" HorizontalAlignment="Left" Margin="6,70,0,0" Name="Border2" VerticalAlignment="Top" Width="102" CornerRadius="9" Background="White">
+                    <Label Content="Info" Height="19" Name="Label3" Width="85" Padding="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                </Border>
+                <Label Content="-" Height="21" HorizontalAlignment="Right" Margin="0,0,4,0" Name="Label4" VerticalAlignment="Top" Padding="-9" Foreground="White" Width="16" FontSize="24" FontFamily="Times New Roman" />
+                <Label Content="?" FontFamily="Times New Roman" FontSize="24" Foreground="White" Height="21" Margin="73,0,0,0" Name="Label5" Padding="-9" VerticalAlignment="Top" HorizontalAlignment="Left" Width="16" />
+            </Grid>
+        </Border>
+        <Image HorizontalAlignment="Left" Margin="12,0,0,93" Name="Image2" Stretch="Uniform" Width="37" Source="/right;component/Images/up-arrow.png" Height="39" VerticalAlignment="Bottom" />
+        <Image Margin="42,0,0,93" Name="Image4" Source="/right;component/Images/down-arrow.png" Stretch="Uniform" Height="39" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="38" />
+        <Image Height="38" HorizontalAlignment="Left" Margin="27,-1,0,0" Name="err" Stretch="Uniform" VerticalAlignment="Top" Width="47" Source="/right;component/Images/er.png" Visibility="Hidden" />
+    </Grid>
+</Window>

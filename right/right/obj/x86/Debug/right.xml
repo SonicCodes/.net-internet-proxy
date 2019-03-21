@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+right
+</name>
+</assembly>
+<members>
+<member name="M:right.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:right.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:right.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:right.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:right.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:right.Proxy.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:right.Proxy">
+	<summary>
+Proxy
+</summary>
+</member><member name="M:right.info.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:right.info">
+	<summary>
+info
+</summary>
+</member><member name="P:right.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:right.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:right.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:right.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:right.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:right.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="P:right.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:right.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:right.My.Resources.Resources.down_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:right.My.Resources.Resources.up_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:right.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

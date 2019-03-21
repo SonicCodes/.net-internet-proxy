@@ -1,0 +1,16 @@
+﻿<Window x:Class="Proxy"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="About" Height="354" Width="411" Topmost="True" ShowInTaskbar="False" ResizeMode="NoResize" Icon="/right;component/Images/laptop.png">
+    <Grid>
+        <Label Content="This app is an open source app you can use it for what ever purpose" Height="22" HorizontalAlignment="Left" Margin="22,284,0,0" Name="Label2" VerticalAlignment="Top" FontSize="8" />
+        <Image Height="45" HorizontalAlignment="Left" Margin="93,114,0,0" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="49" Source="/right;component/Images/down-arrow.png" />
+        <Label Content="Means INCOMING TRAFFIC" Height="28" HorizontalAlignment="Left" Margin="147,124,0,0" Name="Label3" VerticalAlignment="Top" />
+        <Image Height="45" HorizontalAlignment="Left" Margin="93,149,0,0" Name="Image2" Source="/right;component/Images/up-arrow.png" Stretch="Fill" VerticalAlignment="Top" Width="49" />
+        <Label Content="Means OUTCOMMING TRAFFIC" Height="28" HorizontalAlignment="Left" Margin="147,158,0,0" Name="Label4" VerticalAlignment="Top" />
+        <Label Content="Thanks for Fiddlecore , AND YOU" Height="28" HorizontalAlignment="Left" Margin="22,266,0,0" Name="Label5" VerticalAlignment="Top" />
+        <TextBlock Height="52" HorizontalAlignment="Left" Margin="12,12,0,0" Name="TextBlock1" Text="Proxy app made By Rami Mohammed A 14y old programmer who JUST loves OPEN-SOURCE call at +251911355516 or Telegram: @Helliands10" VerticalAlignment="Top" Width="362" TextWrapping="Wrap" />
+        <TextBlock Height="61" HorizontalAlignment="Left" Margin="46,204,0,0" Name="TextBlock2" Text="The most accurate internet speed measuring app !" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontSize="20" />
+        <TextBlock FontSize="20" Height="25" HorizontalAlignment="Left" Margin="130,83,0,0" Name="TextBlock3" Text="Instruction" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" />
+    </Grid>
+</Window>
